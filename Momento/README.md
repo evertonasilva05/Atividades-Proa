@@ -6,17 +6,17 @@
 
 * Inclua suas próprias informações no departamento de Tecnologia da empresa.  
   Q:  
-db.funcionarios.insertOne(
-    {
-    "nome": "Everton Alves da Silva",
-    "telefone": "11.98286.5354",
-    "email": "everton.asilva24@senacsp.edu.br",
-    "dataAdmissao": ISODate(2024-09-23),
-    "cargo": "Android Developer Junior",
-    "salario": 1604,
-    "departamento": ObjectId("85992103f9b3e0b3b3c1fe71")
-    }
-)
+db.funcionarios.insertOne(  
+    {  
+    "nome": "Everton Alves da Silva",  
+    "telefone": "11.98286.5354",  
+    "email": "everton.asilva24@senacsp.edu.br",  
+    "dataAdmissao": ISODate(2024-09-23),  
+    "cargo": "Android Developer Junior",  
+    "salario": 1604,  
+    "departamento": ObjectId("85992103f9b3e0b3b3c1fe71")  
+    }  
+)  
 
 * Agora diga, quantos funcionários temos ao total na empresa?  
   R: 24 funcionários, contando com as informações que inseri  
