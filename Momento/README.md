@@ -19,7 +19,7 @@ db.funcionarios.insertOne(
 )
 
 * Agora diga, quantos funcionários temos ao total na empresa?  
-  R: 24 funcionários, contando com as informações que inseri  
+  R: 24 funcionários, contando com as informações que inseri.  
   Q: db.funcionarios.countDocuments()  
 
 * E quanto ao Departamento de Tecnologia?  
@@ -28,7 +28,7 @@ db.funcionarios.insertOne(
 
 * Qual a média salarial do departamento de tecnologia?  
   R: Aproximadamente $12053,33.  
-  Q:
+  Q:  
 db.funcionarios.aggregate(
     {
         $group:{
@@ -38,9 +38,9 @@ db.funcionarios.aggregate(
     }
 )
 
-* Quanto o departamento de Vendas gasta em salários?
-  R: $95100,00 no total.
-  Q:
+* Quanto o departamento de Vendas gasta em salários?  
+  R: $95100,00 no total.  
+  Q:  
 db.funcionarios.aggregate([{
     $match: {
         departamento: ObjectId("85992103f9b3e0b3b3c1fe71")
