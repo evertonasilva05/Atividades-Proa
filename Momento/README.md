@@ -60,8 +60,20 @@ db.funcionarios.aggregate([{
 ```
 
 * Um novo departamento foi criado. O departamento de Inovações. Ele será locado no Brasil. Por favor, adicione-o no banco de dados da empresa colocando quaisquer informações que você achar relevantes.  
+  Q:  
+```
+db.departamentos.insertOne(
+	{
+		"_id": ObjectId("85992103f9b3e0b3b3c1fe77"),
+		"nome": "Inovações",
+		"escritorio": ObjectId(),
+		"pais": "Brasil"
+	}
+)
+```
 
-* O departamento de Inovações está sem funcionários. Inclua alguns colegas de turma nesse departamento.  
+* O departamento de Inovações está sem funcionários. Inclua alguns colegas de turma nesse departamento.
+  
 
 * Quantos funcionarios a empresa Momento tem agora?  
 
