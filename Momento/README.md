@@ -2,10 +2,11 @@
 
 * Quantos funcionarios da empresa Momento trabalham no departamento de vendas?  
   R: 10 funcionarios.  
-  Q: db.funcionarios.countDocuments({departamento: ObjectId('85992103f9b3e0b3b3c1fe71')})  
+  Q: `db.funcionarios.countDocuments({departamento: ObjectId('85992103f9b3e0b3b3c1fe71')})`  
 
 * Inclua suas próprias informações no departamento de Tecnologia da empresa.  
-  Q:  
+  Q:
+```
 db.funcionarios.insertOne(
     {
     "nome": "Everton Alves da Silva",
@@ -17,18 +18,20 @@ db.funcionarios.insertOne(
     "departamento": ObjectId("85992103f9b3e0b3b3c1fe74")
     }
 )
+```
 
 * Agora diga, quantos funcionários temos ao total na empresa?  
   R: 24 funcionários, contando com as informações que inseri.  
-  Q: db.funcionarios.countDocuments()  
+  Q: `db.funcionarios.countDocuments()`  
 
 * E quanto ao Departamento de Tecnologia?  
   R: 6 funcionários.
-  Q: db.funcionarios.countDocuments({departamento: ObjectId("85992103f9b3e0b3b3c1fe74")})  
+  Q: `db.funcionarios.countDocuments({departamento: ObjectId("85992103f9b3e0b3b3c1fe74")})`  
 
 * Qual a média salarial do departamento de tecnologia?  
   R: Aproximadamente $12053,33.  
-  Q:  
+  Q:
+```
 db.funcionarios.aggregate(
     {
         $group:{
@@ -37,21 +40,24 @@ db.funcionarios.aggregate(
         }
     }
 )
+```
 
 * Quanto o departamento de Vendas gasta em salários?  
   R: $95100,00 no total.  
-  Q:  
+  Q:
+```
 db.funcionarios.aggregate([{
     $match: {
         departamento: ObjectId("85992103f9b3e0b3b3c1fe71")
         }
     }, {
     $group: { 
-				_id: null,
+	_id: null,
         salarioVendas: {$sum: "$salario"}
         }
     }
 ])
+```
 
 * Um novo departamento foi criado. O departamento de Inovações. Ele será locado no Brasil. Por favor, adicione-o no banco de dados da empresa colocando quaisquer informações que você achar relevantes.  
 
