@@ -1,0 +1,58 @@
+```
+[
+    {
+        "nome": "Luiz Felipe",
+        "telefone": "08.91234.5678        ",
+        "email": "luiz.felipe@momento.org",
+        "dataAdmissao": "2024-09-25",
+        "cargo": "",
+        "salario": "",
+        "departamento": "ObjectId('85992103f9b3e0b3b3c1fe77')"
+    },
+    {
+        "nome": "Emily Santana",
+        "telefone": "06.99876.5432",
+        "email": "emily.santana@momento.org",
+        "dataAdmissao": "2024-09-25",
+        "cargo": "",
+        "salario": "",
+        "departamento": "ObjectId('85992103f9b3e0b3b3c1fe77')"
+    },
+    {
+        "nome": "Lucas Miranda",
+        "telefone": "05.98765.4321",
+        "email": "lucas.miranda@momento.org",
+        "dataAdmissao": "2024-09-25",
+        "cargo": "",
+        "salario": "",
+        "departamento": "ObjectId('85992103f9b3e0b3b3c1fe77')"
+    },
+    {
+        "nome": "Luccas Gabriel",
+        "telefone": "02.95432.1876",
+        "email": "luccas.gabriel@momento.org",
+        "dataAdmissao": "2024-09-25",
+        "cargo": "",
+        "salario": "",
+        "departamento": "ObjectId('85992103f9b3e0b3b3c1fe77')"
+    },
+    {
+        "nome": "Alysson Melo",
+        "telefone": "04.97654.3210",
+        "email": "alysson.melo@momento.org",
+        "dataAdmissao": "2024-09-25",
+        "cargo": "UX Designer",
+        "salario": "",
+        "departamento": "ObjectId('85992103f9b3e0b3b3c1fe77')"
+    },
+    {
+        "nome": "Gustavo Correia",
+        "telefone": "07.94321.8765",
+        "email": "gustavo.correia@momento.org",
+        "dataAdmissao": "2024-09-25",
+        "cargo": "",
+        "salario": "",
+        "departamento": "ObjectId('85992103f9b3e0b3b3c1fe77')"
+    }
+]
+```
