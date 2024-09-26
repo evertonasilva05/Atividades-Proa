@@ -73,6 +73,72 @@ db.departamentos.insertOne(
 ```
 
 * O departamento de Inovações está sem funcionários. Inclua alguns colegas de turma nesse departamento.
+
+[
+    {
+        "nome": "Luiz Felipe",
+        "telefone": "",
+        "email": "",
+        "dataAdmissao": "2024-09-25",
+        "cargo": "",
+        "salario": "",
+        "departamento": ""
+    },
+    {
+        "nome": "Célio Victor",
+        "telefone": "",
+        "email": "",
+        "dataAdmissao": "2024-09-25",
+        "cargo": "",
+        "salario": "",
+        "departamento": ""
+    },
+    {
+        "nome": "Luccas Gabriel",
+        "telefone": "",
+        "email": "",
+        "dataAdmissao": "2024-09-25",
+        "cargo": "",
+        "salario": "",
+        "departamento": ""
+    },
+    {
+        "nome": "Malcoln",
+        "telefone": "",
+        "email": "",
+        "dataAdmissao": "2024-09-25",
+        "cargo": "",
+        "salario": "",
+        "departamento": ""
+    },
+    {
+        "nome": "Alysson Melo",
+        "telefone": "",
+        "email": "",
+        "dataAdmissao": "2024-09-25",
+        "cargo": "",
+        "salario": "",
+        "departamento": ""
+    },
+    {
+        "nome": "Iury Sven",
+        "telefone": "",
+        "email": "",
+        "dataAdmissao": "2024-09-25",
+        "cargo": "",
+        "salario": "",
+        "departamento": ""
+    },
+    {
+        "nome": "Matheus de Oliveira",
+        "telefone": "",
+        "email": "",
+        "dataAdmissao": "2024-09-25",
+        "cargo": "",
+        "salario": "",
+        "departamento": ""
+    }
+]
   
 
 * Quantos funcionarios a empresa Momento tem agora?  
