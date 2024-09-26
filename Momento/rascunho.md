@@ -6,7 +6,7 @@
         "email": "luiz.felipe@momento.org",
         "dataAdmissao": "2024-09-25",
         "cargo": "",
-        "salario": "",
+        "salario": 27500,
         "departamento": "ObjectId('85992103f9b3e0b3b3c1fe77')"
     },
     {
@@ -15,7 +15,7 @@
         "email": "emily.santana@momento.org",
         "dataAdmissao": "2024-09-25",
         "cargo": "",
-        "salario": "",
+        "salario": 10000,
         "departamento": "ObjectId('85992103f9b3e0b3b3c1fe77')"
     },
     {
@@ -24,7 +24,7 @@
         "email": "lucas.miranda@momento.org",
         "dataAdmissao": "2024-09-25",
         "cargo": "",
-        "salario": "",
+        "salario": ,
         "departamento": "ObjectId('85992103f9b3e0b3b3c1fe77')"
     },
     {
@@ -33,7 +33,7 @@
         "email": "luccas.gabriel@momento.org",
         "dataAdmissao": "2024-09-25",
         "cargo": "",
-        "salario": "",
+        "salario": ,
         "departamento": "ObjectId('85992103f9b3e0b3b3c1fe77')"
     },
     {
@@ -42,7 +42,7 @@
         "email": "alysson.melo@momento.org",
         "dataAdmissao": "2024-09-25",
         "cargo": "UX Designer",
-        "salario": "",
+        "salario": 6000,
         "departamento": "ObjectId('85992103f9b3e0b3b3c1fe77')"
     },
     {
@@ -51,7 +51,7 @@
         "email": "gustavo.correia@momento.org",
         "dataAdmissao": "2024-09-25",
         "cargo": "",
-        "salario": "",
+        "salario": ,
         "departamento": "ObjectId('85992103f9b3e0b3b3c1fe77')"
     }
 ]
