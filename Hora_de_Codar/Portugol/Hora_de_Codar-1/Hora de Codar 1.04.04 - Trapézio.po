@@ -1,7 +1,6 @@
 programa {
   funcao inicio() {
     real area, baseMaior, baseMenor, altura
-
     escreva("Este é um programa para calcular a área de um trapézio. \n\nEscreva o valor da base maior da figura: ")
     leia(baseMaior)
 
