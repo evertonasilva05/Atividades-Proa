@@ -55,10 +55,3 @@
         "departamento": "ObjectId('85992103f9b3e0b3b3c1fe77')"
     }
 ]
-
-```
-i7-12700 (20 cpus 12ª geração)
-32gb ram
-rtx a2000 
-hp z2 tower g9 workstation desktop pc
-bios u50 ver. 02.03.02
